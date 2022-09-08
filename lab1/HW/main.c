@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// here I'm adding a comment line to see the working of git
 int main()
 {
     double s1,s2,s3,s4,s5,s,a,avg,b,c;
