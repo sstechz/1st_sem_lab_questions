@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a;
+    //printf("Enter the annual income : ");
+    scanf("%d",&a);
+    
+    float tax;
+    
+    if(a<500000)
+        tax = 0.05*a ;
+    else if(a>=500000 && a<1000000)
+        tax = ((7.5)/100)*a;
+    else
+        tax = 0.10*a;
+        
+    printf("%.0f",tax);
+    
+    return 0;
+        
+}

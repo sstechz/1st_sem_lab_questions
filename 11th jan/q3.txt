@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float s,it,pf,gs,ex,savings;
+    
+    //printf("Enter your salary : ");
+    scanf("%f",&s);
+    
+    it = 0.25*s;
+    pf = 0.20*s;
+    gs = s-it-pf;
+    ex = 0.30*gs;
+    savings = gs-ex;
+    
+    printf("The net savings is : %f\n",savings);
+    
+    return 3;
+    
+}

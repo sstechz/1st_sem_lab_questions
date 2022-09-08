@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("My Name Is : Shrey Sahay\n");
+    printf("My ID Is : B421047\n");
+    printf("My JEE Rank Is : 36531\n");
+    
+    return 3;
+}
